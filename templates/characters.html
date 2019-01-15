@@ -7,6 +7,7 @@
     <title>Character</title>
 </head>
 <body>
+    {{ Hello session["token"] }}
     {%for character in c_list%}
      <h3>{{character.name}}</h3>
      <img src="{{character.image}}" alt="">
